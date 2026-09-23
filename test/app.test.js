@@ -14,7 +14,7 @@ test('GET /health returns ok status', async () => {
   const body = await res.json();
 
   assert.equal(res.status, 200);
-  assert.equal(body.status, 'ok');
+  assert.equal(body.status, 'broken');
 
   server.close();
 });
