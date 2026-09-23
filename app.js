@@ -8,7 +8,7 @@ app.use(express.json());
 let items = [];
 let nextId = 1;
 
-const CATEGORIES = ['Electronics', 'ID Card / Documents', 'Bag', 'Bottle / Lunchbox', 'Other'];
+const CATEGORIES = ['Electronics', 'ID Card / Documents', 'Bag', 'Bottle / Lunchbox', 'Other', 'keys'];
 
 // short icon labels used next to each category in the filter bar and item cards
 const CATEGORY_ICON = {
